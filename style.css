@@ -1,0 +1,45 @@
+.navbar-nav .nav-item .nav-link {
+    text-align: center;
+}
+
+.active{
+    font-weight: bold;
+}
+
+#pinfo{
+    background-color:#0088ff;
+    border: 1px solid white;
+    color: white;
+}
+
+
+@media(min-width:576px){
+    .navbar-nav .nav-item:not(:first-child){
+        border-left: 1px solid white;
+    }
+
+    .navbar-nav{
+        border: 1px solid white;
+    }
+
+    .navbar-nav .nav-item .nav-link{
+        color: white;
+        width: 150px;
+    }
+    .nav-item{
+        background-color:#0088ff;
+    }
+}
+
+@media (min-width: 576px)and(max-width: 1200px) {
+    .pr80{
+        font-size: 50%;
+    }
+}
+
+
+@media(min-width:768px){
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
